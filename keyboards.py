@@ -18,7 +18,7 @@ def get_start_keyboard() -> ReplyKeyboardMarkup:
 def get_agreement_keyboard() -> InlineKeyboardMarkup:
     Keyboard = [
         [
-            InlineKeyboardButton(text = constants.TERMS_INLINE_BUTTON_TEXT, callback_data = constants.TERMS_INLINE_BUTTON_CALLBACK),
+            InlineKeyboardButton(text = constants.TERMS_INLINE_BUTTON_TEXT, url = constants.TERMS_INLINE_BUTTON_URL),
             InlineKeyboardButton(text = constants.AGREE_INLINE_BUTTON_TEXT, callback_data = constants.AGREE_INLINE_BUTTON_CALLBACK),
             InlineKeyboardButton(text = constants.DISAGREE_INLINE_BUTTON_TEXT, callback_data = constants.DISAGREE_INLINE_BUTTON_CALLBACK)
         ]
