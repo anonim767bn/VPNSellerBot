@@ -1,1 +1,10 @@
 SUBSCRIBE_BUTTON_TEXT = "Купить подписку 💰"
+AGREE_INLINE_BUTTON_TEXT = "✅ Я принамаю"
+AGREE_INLINE_BUTTON_CALLBACK = "agree"
+DISAGREE_INLINE_BUTTON_TEXT = "❌ Я не принимаю"
+DISAGREE_INLINE_BUTTON_CALLBACK = "disagree"
+TERMS_INLINE_BUTTON_TEXT = "📜 Условия"
+TERMS_INLINE_BUTTON_CALLBACK = "terms"
+LETS_START_AGAING_BUTTON_TEXT = "🔄 Начать заново"
+LETS_START_AGAIN_CALLBACK = "start_again"
+
